@@ -7,16 +7,16 @@
     background-color: var(--clr-bg);
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center; 
     align-items: center;
-    gap: 65px;
 }
 
 .nav-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 615px;
+    padding-left: 30px;
 }
 
 .head-logo {
@@ -37,7 +37,9 @@
     flex-direction: row;
     color: var(--clr-white);
     margin: 0;
-    gap: 70px;
+    gap: 20px;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .nav-item > a {
@@ -50,6 +52,7 @@
 }
 
 .nav-item {
+    margin: 0;
 }
 
 .nav-link {
@@ -70,4 +73,12 @@
     filter: invert(0.7); 
 }
 
+.header-bottom-horizontal-border {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background-color: var(--clr-green);
+    height: 3px;
+}
 
