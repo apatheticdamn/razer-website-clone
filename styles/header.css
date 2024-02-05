@@ -22,12 +22,12 @@
 }
 
 .head-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 270px;
     width: 35px;
     margin: 18px;
+    z-index: 1001; 
 }
 
 .head-razor-logo {
