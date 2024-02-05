@@ -30,4 +30,6 @@ a:hover {
 
 body {
     scroll-behavior: smooth;
+    background-color: var(--clr-black);
+    margin-bottom: 1000px;
 }
