@@ -66,6 +66,10 @@
     filter: invert(0.5);
 }
 
+.nav-link:hover {
+    filter: invert(0);
+}
+
 .nav-item-icon {
     width: 20px;
     filter: invert(0.5);
