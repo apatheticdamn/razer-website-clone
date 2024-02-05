@@ -21,6 +21,10 @@
     padding-left: 30px;
 }
 
+.head-razor-logo {
+    z-index: 888;
+}
+
 .head-logo {
     position: absolute;
     top: 0px;
@@ -30,9 +34,6 @@
     z-index: 1001; 
 }
 
-.head-razor-logo {
-    z-index: 888;
-}
 
 .nav-buttons {
     display: flex;
@@ -78,15 +79,6 @@
 
 .nav-link > img:hover {
     filter: invert(0.7); 
-}
-
-.header-bottom-horizontal-border {
-    position: fixed;
-    top: 64px;
-    left: 0;
-    right: 0;
-    background-color: var(--clr-green);
-    height: 3px;
 }
 
 .product-marketing {
@@ -142,6 +134,14 @@
     align-items: center;
     gap: 30px;
     font-size: 14px;
+}
+
+.nav2-item:hover {
+    color: var(--clr-green);
+}
+
+.nav2-item > span:hover {
+    color: var(--clr-white);
 }
 
 .buy-button {
