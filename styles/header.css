@@ -37,11 +37,11 @@
 .nav-buttons {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;  
     color: var(--clr-white);
-    margin: 0;
-    gap: 20px;
+    gap: 68px;
     flex-grow: 1;
-    flex-wrap: wrap;
+    font-family: var(--font-family-titillium);
 }
 
 .nav-item > a {
