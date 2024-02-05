@@ -14,6 +14,12 @@
     font-weight: var(--font-regular);
 }
 
+.wide-notification-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .showcase1 {
     margin-top: 188px;
 }
@@ -59,4 +65,3 @@
     flex-direction: row;
     gap: 24px;
 }
-
