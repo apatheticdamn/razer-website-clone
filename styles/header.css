@@ -62,6 +62,8 @@
     flex-direction: row;
     font-family: var(--font-family-titillium);
     font-weight: var(--font-light);
+    font-size: 16px;
+    filter: invert(0.5);
 }
 
 .nav-item-icon {
