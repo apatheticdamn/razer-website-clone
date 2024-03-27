@@ -1,0 +1,5 @@
+green: #44d62c
+clr-light: #222
+clr-bg: #222
+white: #f4f4f4
+gray: #999
