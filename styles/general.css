@@ -1,40 +1,39 @@
 :root {
-    --clr-bg: #000000;
-    --clr-dark-gray: #999;
-    --clr-green: #44d62c;
-    --clr-white: #f4f4f4;
-    --clr-black: #000000;
-    
-    --font-family-arial: 'Arial';
-    --font-family-roboto: 'Roboto';
-    --font-family-titillium: 'Titillium Web';
+  --clr-bg: #000000;
+  --clr-dark-gray: #999;
+  --clr-green: #44d62c;
+  --clr-white: #f4f4f4;
+  --clr-black: #000000;
 
-    --font-light: 300;
-    --font-regular: 400;
-    --font-bold: 600;
+  --font-family-arial: "Arial";
+  --font-family-roboto: "Roboto";
+  --font-family-titillium: "Titillium Web";
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-bold: 600;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 body {
-    scroll-behavior: smooth;
-    background-color: var(--clr-black);
-    margin-bottom: 1000px;
+  scroll-behavior: smooth;
+  background-color: var(--clr-black);
 }
 
 ::selection {
-    color: var(--clr-black);
-    background-color: var(--clr-green);
+  color: var(--clr-black);
+  background-color: var(--clr-green);
 }
