@@ -7,7 +7,3 @@ Replicating the Razer Experience - Dive into the world of Razer with this clone 
 1. Clone the repository.
 2. Open the project in your code editor.
 3. Run `index.html` in your browser.
-
-## Usage
-
-Navigate through the cloned website to explore its features.
